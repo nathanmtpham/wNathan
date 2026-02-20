@@ -1,0 +1,45 @@
+.media-box {
+    flex-shrink: 0;
+    position: relative;
+    width: 550px;
+    height: 550px;
+    border: 3px solid #FFFFE3;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #10100E;
+}
+
+.media-box-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.media-box:hover .media-box-image {
+    opacity: 1;
+}
+
+.media-box-label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFE3;
+    font-family: 'Zodiak', serif;
+    font-size: 80px;
+    z-index: 1;
+    transition: opacity 0.5s ease;
+}
+
+.media-box:hover .media-box-label {
+    opacity: 0;
+}

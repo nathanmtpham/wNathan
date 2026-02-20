@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #10100E;
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+}
+
+/* ── Sidebar ── */
+.sideBar {
+    width: 90px;
+    min-width: 90px;
+    background-color: #10100E;
+    border-top:none;
+    border-right: 4px solid #FFFFE3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top section: just the hamburger */
+.sideTop {
+    width: 100%;
+    border-bottom: 4px solid #FFFFE3;
+}
+
+/* Override navbar styles so it fits flush in the sidebar */
+.sideTop .navbar {
+    display: block;
+    width: 100%;
+}
+
+.sideTop .menu-box {
+    width: 100%;
+    height: 90px;
+    border: none;          /* sidebar borders handle it */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Middle section: site name, vertically centered, grows to fill space */
+.sideMiddle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bottom section: category label */
+.sideBottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.sideName,
+.sideCat {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: #FFFFE3;
+    font-family: 'Zodiak', serif;
+    margin: 0;
+}
+
+a.sideName {
+    font-size: 40px;
+    text-decoration: none;
+    color: #FFFFE3
+    
+}
+
+.sideCat {
+    font-size: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+
+/* ── Main content ── */
+.mainContent {
+    flex: 1;
+    background-color: #10100E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

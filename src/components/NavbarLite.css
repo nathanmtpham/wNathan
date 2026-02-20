@@ -1,0 +1,90 @@
+.navbar-lite {
+    display: block;
+    width: 100%;
+}
+
+.menu-box-lite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.menu-button-lite {
+    background: #10100E;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9px;
+    padding: 0;
+}
+
+.line-lite {
+    height: 3px;
+    background-color: #FFFFE3;
+    display: block;
+}
+
+.line1-lite { width: 50px; }
+.line2-lite { width: 38px; }
+.line3-lite { width: 28px; }
+
+.overlay-lite {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #10100E;
+    display: flex;
+    justify-content: start;
+    z-index: 100;
+}
+
+.overlay-content-lite {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.overlay-content-lite a {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 2% 0 0 4%;
+    color: #FFFFE3;
+    font-size: 5rem;
+    border-bottom: 3px solid #FFFFE3;
+    height: 30%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.overlay-content-lite a:hover {
+    background-color: #252521;
+}
+
+.close-button-lite {
+    width: 15%;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #FFFFE3;
+    cursor: pointer;
+    z-index: 101;
+    transition: background-color 0.3s ease;
+}
+
+.close-button-lite:hover {
+    background-color: #252521;
+    color: #ffffe3d5;
+}
