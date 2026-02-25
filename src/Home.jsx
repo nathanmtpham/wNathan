@@ -13,10 +13,9 @@ function Home() {
 
     // Zones
     const Zones = [
-      { title: <h1 className='trip1'>Vegas</h1>, date: <h1 className='tripDate1'>2022</h1>, isReversed: true },
-      { title: <h1 className='trip2'>New York</h1>, date: <h1 className='tripDate2'>2022</h1>, isReversed: false },
-      
-      
+    { title: <h1 className='trip1'>Vegas</h1>, date: <h1 className='tripDate1'>2022</h1>, isReversed: true, image: '/src/assets/vegaslights.JPG' },
+    { title: <h1 className='trip2'>New York</h1>, date: <h1 className='tripDate2'>2022</h1>, isReversed: false, image: '/src/assets/nyBball.jpg' },
+    
     ];
   
     return (

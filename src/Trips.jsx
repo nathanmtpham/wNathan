@@ -32,7 +32,7 @@ const Trips = () => {
                 </div>
 
                 <div className="mainContent" ref={mainContentRef}>
-                    <MediaBox label="Germany" image="src\assets\photography\germTitle.JPG" />
+                    <MediaBox label="Germany" image="src\assets\photography\germTitle.JPG" href="/trips/germany" />
                     <MediaBox label="Amsteram" image="src\assets\photography\AmstTitle.JPG" />
                     <MediaBox label="Rome" image="src\assets\photography\romeTitle.JPG" />
                     <MediaBox label="London" image="src\assets\photography\londonTitle.JPG" />

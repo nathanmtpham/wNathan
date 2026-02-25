@@ -1,6 +1,6 @@
 import React from 'react';
 import './MovieGrid.css';
-import Lalaland from '../assets/Lalaland.jpg';
+import Lalaland from '../assets/homePage/lalaCover.jpeg';
 import Interstellar from '../assets/Interstellar.jpg';
 import Hometown from '../assets/hometown.jpg';
 import YLIA from '../assets/ylia.png'
